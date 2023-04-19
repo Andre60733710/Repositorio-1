@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-image: url(images/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #0eaef3;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #aab1ff;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 255, 0.3);
+    border: 1px solid #aab1ff;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.btn-1:hover {
+    background-color: #aab1ff;
+}
+
+.services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+
+.service img {
+    margin-top: -50px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #525254;
+    font-size: 16px;
+}
+
+.Porfolios {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.Porfolios h2 {
+    font-size: 55px;
+}
+
+.Porfolio {
+    display: flex;
+    align-items: center;
+}
+
+ .Porfolio img {
+    width: 350px;
+ }
+
+ .Porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+ }
+
+ .Porfolio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+ }
+
+ .Porfolio-1 p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+ }
+
+ .Porfolio-2 {
+    text-align: left;
+    margin-left: 100px;
+ }
+
+ .Porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+ }
+
+ .Porfolio-2 p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+ }
+
+ .Btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #704285;
+    color: #ffffff;
+ }
+
+ .Btn-2:hover {
+    background-color: #8650d7;
+ }
+
+ .Footer {
+    padding: 200px 0px 30px 0px;
+    background-image: url(images/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .Info Content {
+    display: flex;
+ }
+
+ .Info-Price {
+    padding: 35px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px ;
+    color: #0e0e0e;
+ }
+
+ .Info-Price h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+ }
+
+ .Price {
+    font-size: 14px;
+    color: #0eaef3 !important;
+    margin-bottom: 10px;
+ }
+
+ .Info-Price p {
+    font-size: 16px;
+    color: #525254;
+ }
+
+ .Info-Text {
+    margin-left: 35px;
+    color: #ffffff;
+ }
+
+ hr {
+    margin: 45px 0;
+    border: 0.5px solid #aab1ff;
+ }
+
+ .enlaces {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+ }
+
+ .enlaces h3 {
+    font-size: 25px;
+ }
+
+ .enlace {
+    display: flex;
+ }
+
+ .enlace li a {
+    display: block;
+    margin: 20px;
+    color: #ffffff;
+ }
+
+ .enlace li a:hover {
+    color: #0eaef3;
+ }

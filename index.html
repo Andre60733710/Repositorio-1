@@ -4,57 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etiquetas De Contenido</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Jugueria La Fruta</title>
 </head>
 <body>
-    <!-- <h1>Etiquetas de contenido</h1> -->
-    <h5>header</h5>
+    
     <header>
-        <img src="" alt="logo Certus">
-        <nav>
-        <a href="">Inicio</a>
-        
-        <a href="https://intranet.certus.edu.pe/Login/"> Portal Certus</a>
 
-        <a href="https://htmlreference.io/">Etiquetas Html</a>
+        <div class="menu container">
 
-        <a href="https://www.gmail.com"></a>
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu-btn.png" class="menu-icono" alt="">
+            </label>
 
-        <a href="">Ayuda</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
 
-        </nav>
+        <div class="header-content container">
+
+            <div class="content">
+
+                <h1> Lorem, ipsum ipsum sit </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                </p>
+                <a href="#" class="btn-1">Mas Informacion</a>
+                <a href="#" class="btn-1">Mas Informacion</a>
+            </div>
+            <img src="images/astronauta.png" alt="">
+        </div>
     </header>
-    <h5>main</h5>
-    <main>
-        Esta sera mi pagina de enlaces a certus.
-        <br>
-        lo elaboré en el curso de lenguajes para el
-        <br> 
-        desarrolo y soporte de sistemas con el profesor.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br>
-        Consequatur quia aliquid autem quod, quis voluptatum!
-        <br> 
-        Repudiandae dignissimos perspiciatis quis exercitationem
-        <br> 
-        sequi recusandae corporis ea voluptatum id nulla, quibusdam
-        <br> 
-        itaque doloribus.
+
+    <main class="services container">
+        <div class="service">
+            <img src="images/icon1.svg" alt="">
+            <h3>Servicio 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+        </div>
+        <div class="service">
+            <img src="images/icon2.svg" alt="">
+            <h3>Servicio 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+        </div>
+        <div class="service">
+            <img src="images/icon3.svg" alt="">
+            <h3>Servicio 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+        </div>
+        <div class="service">
+            <img src="images/icon4.svg" alt="">
+            <h3>Servicio 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+        </div>
     </main>
-    <aside>
-        <h6>Enlaces Relacionados</h6>
-        <a href="">Github</a>
-        <br>
-        <a href="">HTMLReference</a>
-        <br>
-        <a href="">Youtube</a>
-    </aside>
-    <h5>footer</h5>
+
+    <section class="Porfolios container">
+
+        <h2>Porfolios</h2>
+        <div class="Porfolio">
+            <img src="images/img1.png" alt="">
+            <div class="Porfolio-1">
+                <h3>Porfolio-1</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti corporis similique iste beatae repellendus error 
+                    autem explicabo maxime assumenda distinctio harum quibusdam, 
+                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="Porfolio">
+            <div class="Porfolio-2">   
+                <h3>Porfolio-2</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti corporis similique iste beatae repellendus error 
+                    autem explicabo maxime assumenda distinctio harum quibusdam, 
+                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+            <img src="images/img2.png" alt="">
+        </div>
+
+        <div class="Porfolio">
+            <img src="images/img3.png" alt="">
+            <div class="Porfolio-1">  
+                <h3>Porfolio-3</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti corporis similique iste beatae repellendus error 
+                    autem explicabo maxime assumenda distinctio harum quibusdam, 
+                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="Porfolio">
+            <div class="Porfolio-2">
+                <h3>Porfolio-4</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti corporis similique iste beatae repellendus error 
+                    autem explicabo maxime assumenda distinctio harum quibusdam, 
+                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+            <img src="images/img4.png" alt="">
+        </div>
+        
+    </section>
+
     <footer>
-        Elaborado Por André Acosta
-        <br>
-        Copyright
+        <div class="container">
+            <div class="info">
+                <div class="info-content">
+                    <div class="info-price">
+                        <h2>costo</h2>
+                        <p class="price">$3500</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Impedit provident temporibus animi, harum doloribus mollitia 
+                            saepe quam optio, assumenda maxime itaque asperiores libero 
+                            omnis blanditiis nihil velit ea. Reprehenderit, doloribus.
+                        </p>
+                    </div>
+                    
+                    <div class="info.txt">
+                        <h2>princing list</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolores labore quaerat perferendis sunt itaque commodi sint 
+                            sed facilis, nostrum adipisci non deserunt iure eius, deleniti 
+                            sit expedita provident asperiores maiores!
+                        </p>
+                        <a href="#" class="btn-1">Informacion</a>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="enlaces">
+                    <h3>logo</h3>
+                    <div class="enlace">
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
