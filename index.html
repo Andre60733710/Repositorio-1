@@ -1,181 +1,478 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jugueria La Fruta</title>
+<title>Jugueria La Fruta</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
 <body>
-    
-    <header>
 
-        <div class="menu container">
+<div class="super_container">
 
-            <a href="#" class="logo">logo</a>
-            <input type="checkbox" id="menu">
-            <label for="menu">
-                <img src="images/menu-btn.png" class="menu-icono" alt="">
-            </label>
+	<!-- Header -->
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                </ul>
-            </nav>
-        </div>
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
+					<span>La Fruta</span>
+				</div>
+			</div>
 
-        <div class="header-content container">
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">Inicio</a></li>
+						<li class="main_nav_item"><a href="productos.html">Productos</a></li>
+						<li class="main_nav_item"><a href="contact.html">Contactanos</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-row justify-content-center align-items-center">
+			<img src="images/whatsapp-svgrepo-com.svg" alt="">
+			<span>914814912</span>
+		</div>
 
-            <div class="content">
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
 
-                <h1> Lorem, ipsum ipsum sit </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur
-                </p>
-                <a href="#" class="btn-1">Mas Informacion</a>
-                <a href="#" class="btn-1">Mas Informacion</a>
-            </div>
-            <img src="images/astronauta.png" alt="">
-        </div>
-    </header>
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
 
-    <main class="services container">
-        <div class="service">
-            <img src="images/icon1.svg" alt="">
-            <h3>Servicio 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
-        <div class="service">
-            <img src="images/icon2.svg" alt="">
-            <h3>Servicio 2</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
-        <div class="service">
-            <img src="images/icon3.svg" alt="">
-            <h3>Servicio 3</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
-        <div class="service">
-            <img src="images/icon4.svg" alt="">
-            <h3>Servicio 4</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
-    </main>
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
 
-    <section class="Porfolios container">
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="main_nav_item"><a href="index.html">Inicio</a></li>
+					<li class="main_nav_item"><a href="productos.html">Productos</a></li>
+					<li class="main_nav_item"><a href="contact.html">Contactanos</a></li>
+				</ul>
 
-        <h2>Porfolios</h2>
-        <div class="Porfolio">
-            <img src="images/img1.png" alt="">
-            <div class="Porfolio-1">
-                <h3>Porfolio-1</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Corrupti corporis similique iste beatae repellendus error 
-                    autem explicabo maxime assumenda distinctio harum quibusdam, 
-                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
-                </p>
-                <a href="#" class="btn-2">Informacion</a>
-            </div>
-        </div>
+				<!-- Menu Social -->
+				<div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
 
-        <div class="Porfolio">
-            <div class="Porfolio-2">   
-                <h3>Porfolio-2</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Corrupti corporis similique iste beatae repellendus error 
-                    autem explicabo maxime assumenda distinctio harum quibusdam, 
-                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
-                </p>
-                <a href="#" class="btn-2">Informacion</a>
-            </div>
-            <img src="images/img2.png" alt="">
-        </div>
+		</div>
 
-        <div class="Porfolio">
-            <img src="images/img3.png" alt="">
-            <div class="Porfolio-1">  
-                <h3>Porfolio-3</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Corrupti corporis similique iste beatae repellendus error 
-                    autem explicabo maxime assumenda distinctio harum quibusdam, 
-                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
-                </p>
-                <a href="#" class="btn-2">Informacion</a>
-            </div>
-        </div>
+	</div>
+	
+	<!-- Home -->
 
-        <div class="Porfolio">
-            <div class="Porfolio-2">
-                <h3>Porfolio-4</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Corrupti corporis similique iste beatae repellendus error 
-                    autem explicabo maxime assumenda distinctio harum quibusdam, 
-                    consequatur, aspernatur, veritatis cumque aliquam atque praesentium quasi.
-                </p>
-                <a href="#" class="btn-2">Informacion</a>
-            </div>
-            <img src="images/img4.png" alt="">
-        </div>
-        
-    </section>
+	<div class="home">
 
-    <footer>
-        <div class="container">
-            <div class="info">
-                <div class="info-content">
-                    <div class="info-price">
-                        <h2>costo</h2>
-                        <p class="price">$3500</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Impedit provident temporibus animi, harum doloribus mollitia 
-                            saepe quam optio, assumenda maxime itaque asperiores libero 
-                            omnis blanditiis nihil velit ea. Reprehenderit, doloribus.
-                        </p>
-                    </div>
-                    
-                    <div class="info.txt">
-                        <h2>princing list</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dolores labore quaerat perferendis sunt itaque commodi sint 
-                            sed facilis, nostrum adipisci non deserunt iure eius, deleniti 
-                            sit expedita provident asperiores maiores!
-                        </p>
-                        <a href="#" class="btn-1">Informacion</a>
-                    </div>
+		<!-- Hero Slider -->
+		<div class="hero_slider_container">
+			<div class="hero_slider owl-carousel">
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(images/porta.jpg)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Jugos <span>100%</span> naturales!</h1>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(images/porta1.jpeg)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Super <span>Descuentos</span> al contactarnos!</h1>
+						</div>
+					</div>
+				</div>
+				
+			</div>
 
-                </div>
-                <hr>
-                <div class="enlaces">
-                    <h3>logo</h3>
-                    <div class="enlace">
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                        <li><a href="#">lorem</a></li>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"/>
+				<path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+			  </svg></span></div>
+			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+				<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+			  </svg></span></div>
+		</div>
+
+	</div>
+
+
+	<!-- Services -->
+	<div class="services page_section">
+				
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				<div class="section_title text-center">
+					<h1>Jugueria La Fruta</h1><br>
+				</div>
+			</div>
+		</div>
+
+			<div class="service_item text-center d-flex align-items-center justify-content-center">
+				<h3> SI QUIERES DARLE SABOR A TU PALADAR <br> VEN A NUESTRA JUGUERIA <br> Y TOMATE UN JUGO 100% NATURAL</h3> 
+			</div>
+		
+
+	<!-- Popular -->
+
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>PRODUCTOS POPULARES</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row course_boxes">
+				
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="images/fresa.jpeg" alt="https://unsplash.com/@kellybrito">
+						<div class="card-body text-center">
+							<div class="card-title"></div>
+							<div class="card-text">Su alto contenido de agua y fibra soluble son benéficos durante el embarazo.
+								Su contenido de potasio y el bajo valor de azúcares ayudan a mantener buenos niveles de azúcar
+								y colesterol en la sangre. Puede ayudar a prevenir enfermedadesinflamatorias como el asma y la 
+								artritis por su contenido de fitonutrientes.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+							</div>
+							<div class="course_author_name">Jugo de fresa</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>s/10</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="images/papaya.jpg" alt="https://unsplash.com/@cikstefan">
+						<div class="card-body text-center">
+							<div class="card-title"></div>
+							<div class="card-text">Al ser fuente de potasio, es excelente para evitar los calambres, que muchas 
+								veces se derivan de la excesiva deshidratación y pérdida de minerales. Por los mismos beneficios 
+								mencionados, el licuado de papaya es una bebida depurativa y diurética que ayuda a desintoxicar 
+								el organismo de esas sustancias que ya no sirven.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+							</div>
+							<div class="course_author_name">Jugo de papaya</div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>s/10</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box">
+					<div class="card">
+						<img class="card-img-top" src="images/surtido.jpg" alt="https://unsplash.com/@dsmacinnes">
+						<div class="card-body text-center">
+							<div class="card-title"></div>
+							<div class="card-text">Beber este jugo en ayunas genera muchos beneficios para el sistema inmunológico,
+							dando vitaminas, micro nutrientes, agua, antioxidantes y minerales. El consumo de bebidas como el jugo 
+							surtido, de acuerdo a estudios científicos, ayuda a combatir enfermedades como la obesidad, el cáncer y
+							la diabetes.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+							</div>
+							<div class="course_author_name">Jugo de Naranja </div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>s/10</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+
+	<!-- Register -->
+
+	<div class="register">
+
+		<div class="container-fluid">
+			
+			<div class="row row-eq-height">
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Register -->
+
+					<div class="register_section d-flex flex-column align-items-center justify-content-center">
+						<div class="register_content text-center">
+							<h1 class="register_title">Contactanos ahora y obten un <span>20%</span> de descuentos </h1>
+							<p class="register_text">Llevate un super descuentaso en jugos y embutidos al contactarnos el dia de hoy,
+							¡No desperdicies esta mega oferta! </p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-lg-6 nopadding">
+					
+					<!-- Search -->
+
+					<div class="search_section d-flex flex-column align-items-center justify-content-center">
+						<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
+						<div class="search_content text-center">
+							<h1 class="search_title">Contactanos ahora!</h1>
+							<form id="search_form" class="search_form" action="post">
+								<input id="search_form_name" class="input_field search_form_name" type="text" placeholder="Nombre" required="required" data-error="Nombre is required.">
+								<input id="search_form_category" class="input_field search_form_category" type="number" placeholder="Telefono">
+								<input id="search_form_degree" class="input_field search_form_degree" type="email" placeholder="Correo electronico">
+								<button id="search_submit_button" type="button" class="search_submit_button trans_200" value="Submit">Registrar</button>
+							</form>
+						</div> 
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Events -->
+
+	<div class="events page_section">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Proximos eventos</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="event_items">
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">19</div>
+									<div class="event_month">Marzo</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><a class="trans_200" >Dia del Padre</a></div>
+									<p>En este día tan especial ven con tu esposa eh hijos y llevate 3 jugos al precio de 1</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/padre.jpg" alt="https://unsplash.com/@theunsteady5">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">14</div>
+									<div class="event_month">Mayo</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><a class="trans_200">Dia de la Madre</a></div>
+									<p>Alegrele el dia a su madre con un 30% de descuento por llevarte 2 embutidos</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/madre.jpg" alt="https://unsplash.com/@claybanks1989">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">20</div>
+									<div class="event_month">Agosto</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><a class="trans_200">Dia del Niño</a></div>
+									<p>Llena de felicidad el estomago de tu niño y la tuya con unas ricas ensaladas de frutas Con Un 30% de descuento</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/niño.png" alt="https://unsplash.com/@juanmramosjr">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+			</div>
+				
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+								<span>La Fruta</span>
+							</div>
+						</div>
+
+						<p class="footer_about_text">Jugueria la fruta siempre pensando en sus clientes</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="productos.html">Productos</a></li>
+								<li class="footer_list_item"><a href="contact.html">Contactanos</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Tipos de productos</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item">Jugos</li>
+								<li class="footer_list_item">Embutidos</li>
+								<li class="footer_list_item">Ensaladas de Fruta</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Contactanos</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>Av Independencia 375, Cercado
+									AYACUCHO, AYACUCHO
+									
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>914814912
+									
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>Jordyglobertlan@gmail.com
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>
